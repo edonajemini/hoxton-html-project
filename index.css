@@ -127,11 +127,11 @@ header .material-symbols-outlined a{
     color:rgb(60, 167, 131);
 }
  .second-header button {
-     margin-left: 350px;
-     margin-right: 35px;
+     margin-left: 380px;
+     margin-right: 10px;
      margin-bottom: 5px;
      padding-top: 5px;
-     padding-left: 15px;
+     padding-left: 10px;
      padding-right: 10px;
      background-color:transparent;
      text-align: center;
@@ -241,5 +241,38 @@ main p{
 }
 .main-footer{
     grid-area: main-footer;
-    background-color: cornflowerblue;
+    background-color: white;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 10px;
+    padding-left: 20px;
+}
+.main-footer h6{
+color: pink;
+font-family:Arial, Helvetica, sans-serif;
+}
+.main-footer h5{
+    padding-top: 5px;
+    color: rgba(0, 0, 0, 0.807);
+    font-weight: 300;
+}
+.main-footer p{
+    padding-top: 5px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.533)
+}
+.stories {
+    border-right: thin solid rgba(255, 192, 203, 0.231);
+    width: 200px;
+}
+.motivation {
+    border-right: thin solid rgba(255, 192, 203, 0.231);
+    width: 200px;
+}
+.fitness {
+    border-right: thin solid rgba(255, 192, 203, 0.231);
+    width: 200px;
+}
+.health {
+    width: 200px;
 }
