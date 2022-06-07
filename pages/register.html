@@ -4,9 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="/css/register.css">
+    <title>Register</title>
 </head>
 <body>
-    register
+   <header>
+    <span class="material-symbols-outlined">
+        menu
+        </span>
+        <h3>O N C E </h3>
+        <nav class="navigation">
+            <li><a class="current-page" href="./index.html">Home</a> <img src="/images/icons8-expand-arrow-16.png" width="15px"> </li>
+            <li><a class="link" href="./pages/post.html">Posts</a><img src="/images/icons8-expand-arrow-16.png" width="15px"> </li>
+            <li><a class="green" href="./pages/salt&pepper.html">Salt&Pepper</a><img src="/images/icons8-expand-arrow-16.png" width="15px"></li>
+            <li><a class="link" href="./pages/phylosophy.html">Phylosophy</a><img src="/images/icons8-expand-arrow-16.png" width="15px"> </li>
+            </nav>
+                <span class="material-symbols-outlined">
+                    search
+                    </span>
+   </header>
+   <main>
+    <form>
+        <div class="border">
+          <h1>REGISTER!</h1>
+              <label for="name">What's your name?</label>
+              <input
+                id="name" type="text" name="name" required minlength="3" maxlength="10" placeholder="Enter your name.."
+              />
+              <label for="email">What's your email address?</label>
+              <input id="email" type="email" name="email" placeholder="Enter your email addres.." required />
+
+              <label for="pasword">Choose a password</label>
+              <input id="password" type="password" name="password" placeholder="Enter your password" required />
+              
+              <label for="interests">What are you looking for?</label>
+              <select id="interests" name="interests" >
+                <option value="">What would you like?</option>
+                <option>Romance</option>
+                <option>Comedy</option>
+                <option>Cooking</option>
+                <option>Fun</option>
+              </select>
+              <div class="check">
+              <label>I agree with the T&Cs. <input type="checkbox" name="agree"/></label>
+              </div>
+              <button type="submit" formaction="/index.html">SUBMIT</button>
+              </form>
+            </div>
+             </form>
+   </main>
 </body>
 </html>
