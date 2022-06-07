@@ -12,35 +12,59 @@
 <body>
     <header>
         <h4>Subscribe for New Stories</h4>
+        <form>
         <label for="email"></label>
-        <input id="email" type="email" name="email" placeholder="Enter your email!"/>
-        <button>SUBSCRIBE</button>
-        <span class="material-symbols-outlined">
-            arrow_forward_ios
+        <input id="email" type="email" name="email" placeholder="Enter your email!" required/>
+        <button type="submit" formaction="#">SUBSCRIBE</button>
+    </form>
+        <span class="material-symbols-outlined"> <a href="#">
+            arrow_forward_ios </a>
             </span>
-        <img src="/images/logos.jpg" alt="fb insta wp logo">
+            <nav class="logos">
+        <a href="https://www.facebook.com"><img id="fb" src="/images/abcd-modified.png" alt="fb insta wp logo" width="30px" ></a>
+        <a href="https://www.instagram.com"><img id="insta" src="/images/insta.png" alt="fb insta wp logo" width="30px"></a>
+        <a href="https://www.whatsapp.com"><img id="wp" src="/images/wp.png" alt="fb insta wp logo"width="30px"></a>
+        <a href="https://www.twitter.com"><img id="twiter" src="/images/twiter.png" alt="fb insta wp logo" width="30px"></a>
+            </nav>
     </header>
     <div class="second-header">
         <span class="material-symbols-outlined">
             menu
             </span>
             <h3>O N C E </h3>
-            <nav>
+            <nav class="navigation">
                 <li><a class="current-page" href="index.html">Home</a> <img src="/images/icons8-expand-arrow-16.png" width="15px"> </li>
                 <li><a class="link" href="./pages/categories.html">Categories</a><img src="/images/icons8-expand-arrow-16.png" width="15px"> </li>
                 <li><a class="link" href="./pages/post.html">Posts</a><img src="/images/icons8-expand-arrow-16.png" width="15px"> </li>
-                <li><a class="link" href="./pages/salt&pepper.html">Salt&Pepper</a><img src="/images/icons8-expand-arrow-16.png" width="15px"></li>
+                <li><a class="green" href="./pages/salt&pepper.html">Salt&Pepper</a><img src="/images/icons8-expand-arrow-16.png" width="15px"></li>
                 <li><a class="link" href="./pages/phylosophy.html">Phylosophy</a><img src="/images/icons8-expand-arrow-16.png" width="15px"> </li>
                 </nav>
-                <button type="submit" ><span class="material-symbols-outlined">
+                <button type="button" formaction="#">SUBSCRIBE <span class="material-symbols-outlined">
                     mail
-                    </span> SUBSCRIBE</button>
+                    </span></button>
                     <span class="material-symbols-outlined">
                         search
                         </span>
     </div>
-   <main></main>
-    <div class="sidebar">sidebar</div>
+   <main>
+       <h2>FASHION WEEK</h2>
+       <p>Tuesday, 7 June</p>
+   </main>
+   <div class="sidebar">
+        <h3>Currently Loving</h3>
+        <div class="article-1">
+            <a href="#">BEAUTY</a>
+        </div>
+        <div class="article-2">
+            <a href="#">FASHION</a>
+        </div>
+        <div class="article-3">
+            <a href="#">LIFESTYLE</a>
+        </div>
+        <div class="article-4">
+            <a href="#">TRAVEL</a>
+        </div>
+    </div>
     <div class="main-footer">main-footer</div>
 </body>
 </html>
