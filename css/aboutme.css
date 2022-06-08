@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 body{
-    background-color: white;
+    background-color: #f7f7f7;
     display: grid;
     grid-template:
     'header header header'auto
-    'sidebar main main-second'auto
-    'footer footer footer'100px/
-    300px auto 400px
+    'main main main'600px
+    'footer footer footer'auto/
+    auto auto auto
 }
 header {
     grid-area: header;
@@ -18,7 +18,7 @@ header {
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 10px;
-    background-color: rgba(76, 72, 72, 0.472);
+    background-color: rgba(133, 133, 133, 0.472);
     padding-top:15px;
     padding-bottom: 10px;
     padding-left:100px ;
@@ -69,6 +69,33 @@ header .material-symbols-outlined{
      padding-right: 10px;
      color: grey;
  }
+ main {
+    grid-area: main;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+main h1{
+    font-family: 'Dancing Script', cursive;
+    color:rgba(66, 66, 66, 0.929);
+}
+main p{
+    color: gray;
+}
+main h5{
+    padding-top: 10px;
+    color:rgba(66, 66, 66, 0.929);
+    font-size: 12px;
+}
+main a{
+    font-size: 14px;
+    color: pink;
+}
+main img{
+    margin: 50px;
+    border-radius: 100px 0;
+    box-shadow: 2 2 2 2 pink;
+}
+
  footer{
     grid-area: footer;
     background-color: rgba(0, 0, 0, 0.556);
