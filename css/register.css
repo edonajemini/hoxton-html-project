@@ -6,7 +6,7 @@
 body{
     background-color: white;
     background-image: url(/images/666.jpeg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     display: grid;
     grid-template:
     'header header header' auto
@@ -28,7 +28,7 @@ header {
 header h3{
     padding-left: 30px;
     padding-top: 3px;
-    color: pink;
+    color: white;
     animation-duration: 6s;
     animation-name: slideInLeft ;
 }
