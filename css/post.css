@@ -56,8 +56,8 @@ header h3{
     border-color:rgba(255, 192, 203, 0.221);
 }
 
-.current-page { 
-    color: rgba(0, 0, 0, 0.334);
+nav .current-page { 
+    color: pink;
     border-color:rgba(255, 192, 203, 0.221);
 }
 

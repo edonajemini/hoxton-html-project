@@ -9,7 +9,9 @@ body{
     'header header header'50px
     'second-header second-header second-header'50px
     'main main sidebar'auto
-    'main-footer main-footer sidebar'50px/
+    'main-footer main-footer sidebar'50px
+    'second-main second-main second-main'auto
+    'footer footer footer' 50px/
     auto auto 450px;
 
 }
@@ -170,8 +172,8 @@ header .material-symbols-outlined a{
      .subnav:hover .sub-content {
         display: block;
      }
-.current-page { 
-    color: rgba(0, 0, 0, 0.334);
+nav .current-page { 
+    color: rgba(193, 151, 151, 0.334);
     border-color:rgba(255, 192, 203, 0.221);
 }
 
@@ -216,6 +218,9 @@ main p{
     margin-right: 300px;
     padding: 5px;
     border-radius: 1px;
+}
+.main-footer img{
+    margin-top:10px ;
 }
 .sidebar {
     grid-area: sidebar;
@@ -316,6 +321,8 @@ font-family:Arial, Helvetica, sans-serif;
 }
 .second-main{
     padding-left: 20px;
+    grid-area: second-main;
+    grid-auto-flow: row;
 }
 .second-main a{
 text-decoration: none;
@@ -350,4 +357,16 @@ text-decoration: none;
     margin-left: 10px;
     padding-left: 10px;
 
+}
+#stories_about{
+    margin-top: 100px;
+    margin-right: 800px;
+}
+#motivation_about{
+    margin-top: 100px;
+    margin-right: 800px;
+}
+footer{
+    grid-area: footer;
+    background-color: rgba(0, 0, 0, 0.036);
 }

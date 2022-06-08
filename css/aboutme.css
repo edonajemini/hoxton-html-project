@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    display: grid;
+    grid-template:
+    'header header header'auto
+    'sidebar main main-second'auto
+    'footer footer footer'100px/
+    300px auto 400px
+}
+header {
+    grid-area: header;
+    position: relative;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    background-color: rgba(76, 72, 72, 0.472);
+    padding-top:15px;
+    padding-bottom: 10px;
+    padding-left:100px ;
+    display: flex;
+}
+header h3{
+    padding-left: 30px;
+    padding-top: 3px;
+    color: white;
+    animation-duration: 6s;
+    animation-name: slideInLeft ;
+}
+.navigation{
+    overflow: hidden;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-top: 5px;
+    list-style: none;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    gap: 1rem;
+    text-decoration: initial;
+    color: initial;
+    font-size: 14px;
+}
+.navigation a {
+    color:rgba(52, 52, 52, 0.51);
+    text-decoration: none;
+    padding-left: 5px;
+    border-bottom: 2px solid transparent;
+    text-align: center;
+}
+.navigation a:hover{
+    border-color:rgba(255, 192, 203, 0.221);
+}
+
+nav .current-page { 
+    color: pink;
+    border-color:rgba(255, 192, 203, 0.221);
+}
+
+header img{
+     padding-left: 5px;
+ }
+header .material-symbols-outlined{
+     padding-left: 5px;
+     padding-right: 10px;
+     color: grey;
+ }

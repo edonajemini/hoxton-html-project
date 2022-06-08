@@ -57,8 +57,8 @@ header h3{
     border-color:rgba(255, 192, 203, 0.221);
 }
 
-.current-page { 
-    color: rgba(0, 0, 0, 0.334);
+nav .current-page { 
+    color: pink;
     border-color:rgba(255, 192, 203, 0.221);
 }
 header button:hover{
@@ -115,6 +115,15 @@ main{
     background-repeat:no-repeat;
     background-size: 800px 400px;
 
+}
+main h1{
+    color: rgba(81, 128, 89, 0.536);
+    padding-top: 410px;
+    padding-left: 5px;
+}
+main p{
+    color: rgba(131, 131, 131, 0.671);
+    padding-left: 5px;
 }
 .categories-2{
     grid-area: categories-2;
