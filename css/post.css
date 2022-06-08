@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: linear-gradient(62deg, #955d978d 0%, #edddeb7e 100%);
+    background-color: white;
     display: grid;
     grid-template:
     'header header header'auto
@@ -27,7 +27,7 @@ header {
 header h3{
     padding-left: 30px;
     padding-top: 3px;
-    color: pink;
+    color: white;
     animation-duration: 6s;
     animation-name: slideInLeft ;
 }
@@ -74,7 +74,7 @@ header .material-symbols-outlined{
      margin-left: 30px;
      margin-top: 30px;
      padding: 30px;
-     background-color: white;
+     background-color: rgba(190, 190, 190, 0.241);
  }
  .sidebar h3{
     border-bottom: 2px solid pink;
@@ -111,6 +111,7 @@ padding-left: 30px;
      height: 50px;
      border-color: transparent;
      padding: 15px;
+     background-color: rgba(220, 220, 220, 0.415);
  } 
 
 #message:focus{
@@ -157,42 +158,42 @@ border: thin solid rgba(128, 128, 128, 0.103);
     grid-area: article-1;
     background-repeat: no-repeat;
     background-size: 200px 150px;
-    box-shadow:0px 2px 10px 2px rgb(255, 255, 255);
+    box-shadow:0px 2px 10px 2px rgba(255, 192, 203, 0.155);
 }
 .article-2{
     background-image: url(/images/secondd.jpeg);
     grid-area: article-2;
     background-repeat: no-repeat;
     background-size: 200px 150px;
-    box-shadow:0px 2px 10px 2px rgb(255, 255, 255);
+    box-shadow:0px 2px 10px 2px rgba(255, 192, 203, 0.155);
 }
 .article-3{
     background-image: url(/images/third.jpeg);
     grid-area: article-3;
     background-repeat: no-repeat;
     background-size: 200px 150px;
-    box-shadow:0px 2px 10px 2px rgb(255, 255, 255);
+    box-shadow:0px 2px 10px 2px rgba(255, 192, 203, 0.155);
 }
 .article-4{
     background-image: url(/images/fourth.webp);
     grid-area: article-4;
     background-repeat: no-repeat;
     background-size: 200px 150px;
-    box-shadow:0px 2px 10px 2px rgb(255, 255, 255);
+    box-shadow:0px 2px 10px 2px rgba(255, 192, 203, 0.155);
 }
 .article-5{
     background-image: url(/images/five.jpeg);
     grid-area: article-5;
     background-repeat: no-repeat;
     background-size: 200px 150px;
-    box-shadow:0px 2px 10px 2px rgb(255, 255, 255);
+    box-shadow:0px 2px 10px 2px rgba(255, 192, 203, 0.155);
 }
 .article-6{
     background-image: url(/images/six.jpeg);
     grid-area: article-6;
     background-repeat: no-repeat;
     background-size: 200px 150px;
-    box-shadow:0px 2px 10px 2px rgb(255, 255, 255);
+    box-shadow:0px 2px 10px 2px rgba(255, 192, 203, 0.155);
 }
 .main-second button{
     position: relative;
