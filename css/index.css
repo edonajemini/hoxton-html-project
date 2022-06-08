@@ -148,7 +148,7 @@ header .material-symbols-outlined a{
     text-align: center;
 }
 .navigation a:hover{
-    border-color:rgba(255, 192, 203, 0.221);
+    border-color:rgba(255, 192, 203, 0.696);
 }
 .subnav {
     float: left;
@@ -163,35 +163,34 @@ header .material-symbols-outlined a{
     background-color: rgba(0, 109, 67, 0);
     margin-right: 5px;
  }
- nav .links:hover,
-.subnav:hover .sub-btn {
+ nav .links:focus,
+.subnav:focus .sub-btn {
     border: thin solid rgb(222, 222, 222);
     padding: 10px 20px;
    color: rgb(139, 139, 139);
    padding: 2px 5px;
    font-weight: bolder;
    margin-right: 5px;
-   margin-bottom: 15px;
 }
 
 .sub-content {
     padding: 10px 2px;
     margin:10px 620px;
-    display: none;
+    display:none;
     position: absolute;
     left: 0;
-    background-color: pink;
+    background-color: rgba(255, 192, 203, 0.465);
     width: 100%;
     z-index: 1;
      }
      .sub-content a {
-        float: left;
+        float:left;
         color: white;
         text-decoration: none;
      }
      .sub-content a:hover {
-        background-color: #eee;
-        color: black;
+        background-color: white;
+        color: pink;
      }
      .subnav:hover .sub-content {
         display: block;
@@ -255,7 +254,7 @@ main p{
     'article-3 article-4 'auto/
     200px 200px;
     gap:20px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.306);
     margin-top:15px;
 }
 .sidebar h3
@@ -264,7 +263,7 @@ main p{
     margin-top: 10px;
     font-family: 'Dancing Script', cursive;
     margin-bottom: 20px;
-    background-color: rgba(255, 192, 203, 0.087);
+    background-color: rgba(234, 234, 234, 0.274);
     border-radius: 0 20px;
 }
 .article-1
@@ -372,7 +371,7 @@ padding-left: 20px;
     margin-bottom: 20px;
     padding:30px;
     display: grid;
-    background-color: antiquewhite;
+    background-color: rgb(234, 234, 234);
     border-radius: 50px;
     box-shadow:0px 2px 2px 2px rgba(194, 186, 188, 0.375);
     text-decoration: none;
@@ -381,7 +380,7 @@ padding-left: 20px;
 #another-page h3{
     font-family: 'Dancing Script', cursive;
     font-size: 14px;
-    color:rgba(66, 66, 66, 0.929);
+    color:rgba(146, 58, 58, 0.929);
     margin-top: 10px;
 }
 #another-page h4{
@@ -390,12 +389,16 @@ padding-left: 20px;
 }
 #another-page h2{
     font-weight: 400;
-    color:rgba(66, 66, 66, 0.929);
+    color:rgba(66, 66, 66, 0.758);
     margin-top: 10px;
     margin-bottom: 5px;
-    margin-left: 10px;
+    margin-left: 50px;
     padding-left: 10px;
+    border-bottom: thin solid rgba(146, 58, 58, 0.154);
 
+}
+#another-page h2:hover{
+    color:black ;
 }
 #stories_about{
     margin-top: 100px;
@@ -431,19 +434,24 @@ padding-left: 10px;
     padding-left: 5px;
     justify-content: center;
 }
-#fitness_about{
-        margin-top: 60px;
-        margin-bottom:10px;
-        padding-right: 20px;
-        padding-bottom: 20px;
-        padding-right: 20px;
-        border-bottom: 1px solid rgba(255, 192, 203, 0.206);
-        text-decoration: none;
-}
+
 #fitness_influencer{
     color:rgb(167, 225, 225);
     border-bottom: thin solid rgb(167, 225, 225);
 }
+#motivation_about{
+    margin-top: 60px;
+    margin-bottom:10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border-bottom: 1px solid rgba(255, 192, 203, 0.206);
+    text-decoration: none;
+}
+#motivation_about p{
+    padding: 10px;
+}
+
 #health_about{
     margin-top: 60px;
     margin-bottom:10px;
@@ -451,9 +459,13 @@ padding-left: 10px;
     padding-bottom: 20px;
     padding-right: 20px;
     border-bottom: 1px solid rgba(255, 192, 203, 0.206);
-
+    text-decoration: none;
+}
+#motivation_about p{
+    padding: 10px;
 }
 footer{
+    margin-top: 10px;
     grid-area: footer;
     background-color: rgba(0, 0, 0, 0.556);
     padding: 10px 20px;
