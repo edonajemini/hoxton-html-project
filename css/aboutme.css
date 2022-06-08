@@ -12,6 +12,8 @@ body{
     'footer footer footer'auto/
     auto auto auto
 }
+
+ /* --HEADER  STARTS-- */
 header {
     grid-area: header;
     position: relative;
@@ -69,6 +71,12 @@ header .material-symbols-outlined{
      padding-right: 10px;
      color: grey;
  }
+
+  /* --HEADER  ENDS-- */
+
+
+
+   /* --MAIN  STARTS-- */
  main {
     grid-area: main;
     margin-left: 200px;
@@ -96,6 +104,13 @@ main img{
     box-shadow: 2 2 2 2 pink;
 }
 
+ /* --MAIN  ENDS-- */
+
+
+
+
+  /* --FOOTER  STARTS-- */
+
  footer{
     grid-area: footer;
     background-color: rgba(0, 0, 0, 0.556);
@@ -111,3 +126,4 @@ footer a{
     text-decoration: none;
     color: pink;
 }
+ /* --FOOTER  ENDS-- */

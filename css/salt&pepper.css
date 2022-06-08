@@ -14,6 +14,8 @@ body {
     300px auto 300px;
 }
 
+ /* --HEADER  STARTS-- */
+
 header {
     grid-area: header;
     position: relative;
@@ -75,6 +77,12 @@ header .material-symbols-outlined{
      color: grey;
  }
 
+  /* --HEADER  ENDS-- */
+
+
+
+   /* --SIDEBAR  STARTS-- */
+
 .sidebar{
     grid-area: sidebar;
     margin-left: 30px;
@@ -112,7 +120,11 @@ header .material-symbols-outlined{
 padding-top: 10px;
 margin-left: 40px;
 }
+ /* --SIDEBAR  ENDS-- */
 
+
+
+  /* --MAIN  STARTS-- */
 main{
     margin-top: 20px;
     grid-area: main;
@@ -130,6 +142,12 @@ main p{
     color: rgba(131, 131, 131, 0.671);
     padding-left: 5px;
 }
+
+ /* --MAIN  ENDS-- */
+
+
+
+  /* --categories-2  STARTS-- */
 .categories-2{
     grid-area: categories-2;
     margin:10px;
@@ -150,6 +168,8 @@ main p{
     margin:10px 25px;
     color: rgba(0, 0, 0, 0.384); 
 }
+
+/* --categories-2  ENDS-- */
 footer{
     grid-area: footer;
     background-color: rgba(0, 0, 0, 0.556);
@@ -159,6 +179,8 @@ footer{
     font-family:Arial, Helvetica, sans-serif;
 }
 
+
+/* --FOOTER  STARTS-- */
 footer ul{
     list-style: none;
 }
@@ -166,3 +188,4 @@ footer a{
     text-decoration: none;
     color: pink;
 }
+/* --FOOTER  ENDS-- */

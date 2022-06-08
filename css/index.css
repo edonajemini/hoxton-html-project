@@ -16,7 +16,7 @@ body{
 
 }
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital@1&display=swap');
-
+/* HEADER  STARTS */
 header{
     margin-left: 15px;
     margin-right: 15px;
@@ -72,6 +72,11 @@ header .material-symbols-outlined a{
     justify-content: center;
     padding-bottom: 80px;
 }
+/* HEADER  ENDS */
+
+
+
+/* SECOND-HEADER  STARTS */
 .second-header{
     position: relative;
     margin-left: 15px;
@@ -104,7 +109,7 @@ header .material-symbols-outlined a{
     margin-bottom: 20px;
     border: transparent;
     background-color: transparent;
-    width: 150px;
+    width: 180px;
     height: 30px;
     border-radius: 2px;
     background-color: #e0e0e01f;
@@ -212,6 +217,11 @@ nav .current-page {
      padding-right: 10px;
      color: grey;
  }
+
+ /* SECOND-HEADER  ENDS */
+
+
+ /* MAIN  STARTS */
 main {
     margin:15px;
     grid-area: main;
@@ -245,6 +255,12 @@ main p{
 .main-footer img{
     margin-top:10px ;
 }
+
+ /* MAIN  ENDS */
+
+
+
+  /* SIDEBAR  STARTS */
 .sidebar {
     grid-area: sidebar;
     display: grid;
@@ -302,6 +318,12 @@ main p{
     background-color: rgba(255, 255, 255, 0.503);
     display: flex;
 }
+
+ /* SIDEBAR  ENDS */
+
+
+
+  /* MAIN-FOOTER  STARTS */
 .main-footer{
     grid-area: main-footer;
     background-color: white;
@@ -342,6 +364,13 @@ font-family:Arial, Helvetica, sans-serif;
 .health {
     width: 200px;
 }
+
+ /* MAIN-FOOTER  ENDS */
+
+
+
+  /* SECOND-MAIN  STARTS */
+
 .second-main{
     padding-left: 20px;
     grid-area: second-main;
@@ -464,6 +493,12 @@ padding-left: 10px;
 #motivation_about p{
     padding: 10px;
 }
+
+ /* SECOND-MAIN  ENDS */
+
+
+
+  /* FOOTER  STARTS */
 footer{
     margin-top: 10px;
     grid-area: footer;
@@ -480,3 +515,4 @@ footer a{
     text-decoration: none;
     color: pink;
 }
+ /* FOOTER  ENDS */

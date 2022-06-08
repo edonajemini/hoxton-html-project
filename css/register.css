@@ -14,6 +14,12 @@ body{
     'footer footer footer'auto/
     auto auto auto;
 }
+:root {
+    --primary: rgba(149, 91, 176, 0.595);
+    
+}
+/* --HEADER  STARTS-- */
+
 header {
     grid-area: header;
     position: relative;
@@ -74,10 +80,12 @@ header .material-symbols-outlined{
      padding-right: 10px;
      color: grey;
  }
- :root {
-    --primary: rgba(149, 91, 176, 0.595);
-    
-}
+
+ /* --HEADER  ENDS-- */
+
+
+ /* --MAIN  STARTS-- */
+
 main{
     grid-area: main;
     display:inline-flex;
@@ -166,6 +174,10 @@ button {
     background-color:rgba(76, 72, 72, 0.234);
     color:black;
 }
+ /* --MAIN  ENDS-- */
+
+
+  /* --SIDEBAR  STARTS-- */
 .sidebar{
     grid-area: sidebar;
     
@@ -183,6 +195,11 @@ background: -webkit-linear-gradient(rgb(206, 68, 146), rgb(182, 214, 225));
     margin-top: 30px;
 color: gray;
 }
+
+ /* --SIDEBAR  ENDS-- */
+
+
+  /* --FOOTER  STARTS-- */
 footer{
     grid-area: footer;
     background-color: rgba(0, 0, 0, 0.556);
@@ -198,3 +215,4 @@ footer a{
     text-decoration: none;
     color: pink;
 }
+ /* --FOOTER  ENDS-- */

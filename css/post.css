@@ -13,6 +13,9 @@ body{
     300px auto 400px;
     background-color: #fffefc;
 }
+ /* --HEADER  STARTS-- */
+
+
 header {
     grid-area: header;
     position: relative;
@@ -70,6 +73,11 @@ header .material-symbols-outlined{
      padding-right: 10px;
      color: grey;
  }
+
+  /* --HEADER  ENDS-- */
+
+
+   /* --SIDEBAR  STARTS-- */
  .sidebar{
      grid-area: sidebar;
      margin-left: 30px;
@@ -108,6 +116,15 @@ margin-left: 5px;
 text-decoration: none;
 color: rgba(0, 0, 0, 0.698);
  }
+
+  /* --SIDEBAR  ENDS-- */
+
+
+
+   /* --MAIN  STARTS-- */
+main{
+    grid-area: main;
+}
  main p{
     padding-top: 20px;
     padding-left: 30px;
@@ -144,7 +161,13 @@ border: thin solid rgba(56, 56, 56, 0.103);
  #text:hover{
     background-color: rgba(200, 205, 202, 0.459);
  }
+/* --MAIN  ends-- */
+
+
+
+/* --MAIN-SECOND  STARTS-- */
 .main-second{
+    grid-area: main-second;
     background-color: transparent;
     margin-right: 15px;
     margin-top: 25px;
@@ -228,6 +251,11 @@ border: thin solid rgba(56, 56, 56, 0.103);
 .main-second button:hover{
     background-color: rgba(193, 186, 186, 0.178);
 }
+
+/* --MAIN-SECOND  ENDS-- */
+
+
+/* --FOOTER  STARTS-- */
  footer{
      grid-area: footer;
      background-color:rgba(76, 72, 72, 0.234);
@@ -248,3 +276,4 @@ footer a{
     text-decoration: none;
     color: pink;
 }
+/* --FOOTER  ENDS-- */
