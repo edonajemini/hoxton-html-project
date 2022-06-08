@@ -9,7 +9,7 @@ body{
     grid-template:
     'header header header'auto
     'sidebar main main-second'auto
-    'footer footer footer'100px/
+    'footer footer footer'auto/
     300px auto 400px
 }
 header {
@@ -78,7 +78,7 @@ header .material-symbols-outlined{
  }
 
  .sidebar h3{
-    border-bottom: 2px solid pink;
+    border-bottom: 2px solid rgba(255, 192, 203, 0.385);
     font-family: 'Times New Roman', Times, serif;
     color: rgba(0, 0, 0, 0.742);
  }
@@ -90,14 +90,21 @@ header .material-symbols-outlined{
      text-decoration:none ;
      color: rgba(0, 0, 0, 0.742);
  }
+ #blogger{
+     margin-left: 250px;
+ }
  .lists{
-    
+    text-align: center;
      padding-top: 20px;
-     border-bottom: 1.5px solid pink;
+     border-bottom: 1.5px solid rgba(255, 192, 203, 0.385);
  }
  .sidebar img{
-padding-top: 10px;
-padding-left: 40px;
+margin-top: 10px;
+margin-left: 5px;
+ }
+ .sidebar a, ul{
+text-decoration: none;
+color: rgba(0, 0, 0, 0.698);
  }
  main p{
     padding-top: 20px;
@@ -130,7 +137,7 @@ margin-top: 3px;
 width: 100px;
 padding:10px 2px;
 background-color: rgba(200, 205, 202, 0.496);
-border: thin solid rgba(128, 128, 128, 0.103);
+border: thin solid rgba(56, 56, 56, 0.103);
  }
  #text:hover{
     background-color: rgba(200, 205, 202, 0.459);
@@ -147,59 +154,71 @@ border: thin solid rgba(128, 128, 128, 0.103);
     auto auto;
     gap: 10px;
 }
+.main-second h4{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.729);
+    font-weight: 300;
+}
 .main-second p{
     font-size: 12px;
-    padding-left: 5px;
+    padding-left: 15px;
     padding-top: 5px;
     color: gray;
+    padding-bottom: 10px;
 }
 .article-1{
-    background-image: url(/images/article.jpeg);
+    background-image: url(/images/studentt.jpeg);
     grid-area: article-1;
     background-repeat: no-repeat;
     background-size: 200px 150px;
-    box-shadow:0px 2px 10px 2px rgba(255, 192, 203, 0.155);
+    box-shadow:0px 2px 10px 2px rgba(161, 161, 161, 0.726);
+    background-color: rgba(255, 192, 203, 0.214);
 }
 .article-2{
-    background-image: url(/images/secondd.jpeg);
+    background-image: url(/images/fashionn.png);
     grid-area: article-2;
     background-repeat: no-repeat;
     background-size: 200px 150px;
-    box-shadow:0px 2px 10px 2px rgba(255, 192, 203, 0.155);
+    box-shadow:0px 2px 10px 2px rgba(139, 138, 138, 0.155);
+    background-color: rgba(255, 192, 203, 0.214);
 }
 .article-3{
-    background-image: url(/images/third.jpeg);
+    background-image: url(/images/foodd.jpeg);
     grid-area: article-3;
     background-repeat: no-repeat;
     background-size: 200px 150px;
-    box-shadow:0px 2px 10px 2px rgba(255, 192, 203, 0.155);
+    box-shadow:0px 2px 10px 2px rgba(139, 138, 138, 0.155);
+    background-color: rgba(255, 192, 203, 0.214);
 }
 .article-4{
     background-image: url(/images/fourth.webp);
     grid-area: article-4;
     background-repeat: no-repeat;
     background-size: 200px 150px;
-    box-shadow:0px 2px 10px 2px rgba(255, 192, 203, 0.155);
+    box-shadow:0px 2px 10px 2px rgba(139, 138, 138, 0.155);
+    background-color: rgba(255, 192, 203, 0.214);
 }
 .article-5{
     background-image: url(/images/five.jpeg);
     grid-area: article-5;
     background-repeat: no-repeat;
     background-size: 200px 150px;
-    box-shadow:0px 2px 10px 2px rgba(255, 192, 203, 0.155);
+    box-shadow:0px 2px 10px 2px rgba(139, 138, 138, 0.155);
+    background-color: rgba(255, 192, 203, 0.214);
 }
 .article-6{
     background-image: url(/images/six.jpeg);
     grid-area: article-6;
     background-repeat: no-repeat;
     background-size: 200px 150px;
-    box-shadow:0px 2px 10px 2px rgba(255, 192, 203, 0.155);
+    box-shadow:0px 2px 10px 2px rgba(139, 138, 138, 0.155);
+    background-color: rgba(255, 192, 203, 0.214);
 }
 .main-second button{
     position: relative;
     margin-top: 160px;
     padding: 5px 10px;
-    border:thin solid rgba(255, 192, 203, 0.432);
+    border:thin solid rgba(255, 192, 203, 0.165);
     background-color: rgba(193, 186, 186, 0.409);
     border-radius: 2px;
     margin-left: 10px;
@@ -211,3 +230,19 @@ border: thin solid rgba(128, 128, 128, 0.103);
      grid-area: footer;
      background-color:rgba(76, 72, 72, 0.234);
  }
+ footer{
+    grid-area: footer;
+    background-color: rgba(0, 0, 0, 0.556);
+    padding: 10px 20px;
+    text-align:center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+footer ul{
+    list-style: none;
+}
+footer a{
+    text-decoration: none;
+    color: pink;
+}

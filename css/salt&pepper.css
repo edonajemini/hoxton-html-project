@@ -9,7 +9,8 @@ body {
     'header header header' auto
     'sidebar main categories-2' 300px
     'sidebar main categories-2' 300px
-    'second-main second-main second-main 'auto/
+    'second-main second-main second-main '300px
+    'footer footer footer'auto/
     300px auto 300px;
 }
 
@@ -144,4 +145,20 @@ main p{
 .categories-2 p{
     margin:10px 25px;
     color: rgba(0, 0, 0, 0.384); 
+}
+footer{
+    grid-area: footer;
+    background-color: rgba(0, 0, 0, 0.556);
+    padding: 10px 20px;
+    text-align:center;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+footer ul{
+    list-style: none;
+}
+footer a{
+    text-decoration: none;
+    color: pink;
 }
