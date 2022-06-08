@@ -105,10 +105,14 @@ header .material-symbols-outlined{
     border: 1.5px solid rgba(81, 128, 89, 0.536);
     border-radius: 25px;
 }
+.lists:hover{
+    background-color: rgba(128, 128, 128, 0.344);
+}
 .sidebar img{
 padding-top: 10px;
-padding-left: 30px;
+margin-left: 40px;
 }
+
 main{
     margin-top: 20px;
     grid-area: main;
