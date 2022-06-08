@@ -118,9 +118,21 @@ main{
 }
 .categories-2{
     grid-area: categories-2;
-    background-color: rgb(255, 255, 255);
+    margin:10px;
+    background-color: rgba(217, 216, 216, 0.28);
 }
-.second-main{
-    grid-area: second-main;
-    background-color: chartreuse;
+.categories-2 img{
+    margin: 10px;
+}
+.categorie-2_img{
+    margin:10px ;
+    display: inline-flex ;
+}
+.categories-2 h3{
+    margin:10px;
+    color: rgba(0, 0, 0, 0.692);
+}
+.categories-2 p{
+    margin:10px 25px;
+    color: rgba(0, 0, 0, 0.384); 
 }
