@@ -539,14 +539,16 @@ footer a{
 
  /* RESPONSIVE  */
 
- @media (max-width: 400px){
-    body{
-    grid-template:
-    'second-header second-header second-header'50px
-    'main main 'auto
-    'main-footer main-footer sidebar'50px
-    'second-main second-main second-main'auto
-    'footer footer footer' auto/
-    1fr 550px 500px;
+ @media (max-width: 800px){
+    .navigation{
+        display: none;
+    }
+   header .logos .form{
+    display: none;
+   }
   }
- }
+  @media (max-width: 700px){
+   header form{
+    display: none;
+   }
+  }
