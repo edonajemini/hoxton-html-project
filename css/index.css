@@ -481,6 +481,7 @@ padding-left: 10px;
     padding-top: 20px;
     padding-left: 5px;
     justify-content: center;
+    display:grid;
 }
 
 #fitness_influencer{
@@ -543,12 +544,30 @@ footer a{
     .navigation{
         display: none;
     }
-   header .logos .form{
+   header .logos form{
     display: none;
    }
   }
-  @media (max-width: 700px){
+  @media (max-width: 600px){
    header form{
     display: none;
    }
+   .sidebar{
+    display: none;
+   }
   }
+  @media (max-width: 700px ){
+    .second-main img{
+        display: inline;
+    }
+  }
+  @media (max-width: 600px ){
+   .main-footer{
+    width: 200px;
+    display: list-item;
+   }
+   #another-page{
+    margin-top: 300px;
+   }
+
+}
