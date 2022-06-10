@@ -8,7 +8,7 @@ body{
     display: grid;
     grid-template:
     'header header header'auto
-    'main main main'600px
+    'main main main'800px
     'footer footer footer'auto/
     auto auto auto
 }

@@ -10,7 +10,7 @@ body{
     display: grid;
     grid-template:
     'header header header' auto
-    'main sidebar sidebar'auto
+    'main sidebar sidebar'700px
     'footer footer footer'auto/
     auto auto auto;
 }
